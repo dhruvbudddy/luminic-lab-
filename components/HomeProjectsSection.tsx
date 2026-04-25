@@ -11,7 +11,7 @@ const projects = [
     description: 'A real estate tokenization platform connecting property assets to blockchain for fractionalized ownership.',
     network: 'CoinMarketCap Listed',
     networkType: 'cmc' as const,
-    link: 'https://coinmarketcap.com',
+    link: 'https://coinmarketcap.com/currencies/reallink/',
     topBorderClass: 'top-border-green',
   },
   {
@@ -19,7 +19,7 @@ const projects = [
     description: 'Fan engagement token for the MEET48 idol economy, driving community governance and reward distribution.',
     network: 'CoinMarketCap Listed',
     networkType: 'cmc' as const,
-    link: 'https://coinmarketcap.com',
+    link: 'https://coinmarketcap.com/currencies/idol/',
     topBorderClass: 'top-border-green',
   },
   {
@@ -27,7 +27,7 @@ const projects = [
     description: 'Space-themed utility token with deflationary mechanics, staking rewards, and galactic gamification.',
     network: 'CoinMarketCap Listed',
     networkType: 'cmc' as const,
-    link: 'https://coinmarketcap.com',
+    link: 'https://coinmarketcap.com/currencies/spacecoin/',
     topBorderClass: 'top-border-green',
   },
   {

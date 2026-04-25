@@ -114,9 +114,14 @@ export default function ContactPage() {
               </div>
               <h3 className="text-lg sm:text-xl font-bold mb-2">Email</h3>
               <p className="text-xs sm:text-sm text-gray-300 mb-3 sm:mb-4">Get in touch via email</p>
-              <a href="mailto:contact@luminic-labs.com" className="text-xs sm:text-sm text-blue-400 font-semibold hover:text-blue-300">
-                contact@luminic...
-              </a>
+              <div className="space-y-1 text-xs sm:text-sm text-blue-400 font-semibold">
+                <a href="mailto:info@luminiclabs.com" className="hover:text-blue-300 block">
+                  info@luminiclabs.com
+                </a>
+                <a href="mailto:luminiclabs@gmail.com" className="hover:text-blue-300 block">
+                  luminiclabs@gmail.com
+                </a>
+              </div>
             </motion.div>
 
             <motion.div
@@ -131,8 +136,8 @@ export default function ContactPage() {
               </div>
               <h3 className="text-lg sm:text-xl font-bold mb-2">WhatsApp</h3>
               <p className="text-xs sm:text-sm text-gray-300 mb-3 sm:mb-4">Quick messaging</p>
-              <a href="https://wa.me/919876543210" className="text-xs sm:text-sm text-blue-400 font-semibold hover:text-blue-300">
-                +91 98765 43210
+              <a href="https://wa.me/916201051548" className="text-xs sm:text-sm text-blue-400 font-semibold hover:text-blue-300">
+                +91 62010 51548
               </a>
             </motion.div>
 
@@ -148,8 +153,8 @@ export default function ContactPage() {
               </div>
               <h3 className="text-lg sm:text-xl font-bold mb-2">Call</h3>
               <p className="text-xs sm:text-sm text-gray-300 mb-3 sm:mb-4">Direct contact</p>
-              <a href="tel:+919876543210" className="text-xs sm:text-sm text-blue-400 font-semibold hover:text-blue-300">
-                +91 98765 43210
+              <a href="tel:+919905915043" className="text-xs sm:text-sm text-blue-400 font-semibold hover:text-blue-300">
+                +91 99059 15043
               </a>
             </motion.div>
           </div>
@@ -320,7 +325,7 @@ export default function ContactPage() {
 
           <div className="space-y-3 sm:space-y-4">
             {[
-              { q: 'What is the typical project timeline?', a: 'Project timelines vary based on complexity. Simple token launches can take 2-4 weeks, while comprehensive DApp ecosystems may take 3-6 months.' },
+              { q: 'What is the typical project timeline?', a: 'Project timelines vary based on complexity. Simple token launches can take 1-2 weeks, while comprehensive DApp ecosystems may take 3-6 months.' },
               { q: 'Do you provide post-launch support?', a: 'Yes! We offer comprehensive post-launch support including monitoring, updates, and maintenance.' },
               { q: 'What blockchains do you specialize in?', a: 'We work with Ethereum, BNB Chain, Solana, Polygon, and other major blockchains.' },
               { q: 'Can you help with token listings?', a: 'Absolutely! We have established relationships with DEXs and can assist with CEX listings on major exchanges.' }

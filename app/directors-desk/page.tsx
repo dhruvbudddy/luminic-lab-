@@ -82,7 +82,9 @@ export default function DirectorsDeskPage() {
                 {/* Social Links */}
                 <div className="flex items-center gap-4">
                   <motion.a
-                    href="#"
+                    href="https://www.linkedin.com/in/ayush-bhardwaj-a66aa3262?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     whileHover={{ scale: 1.1 }}
                     className="w-12 h-12 rounded-lg bg-blue-500/20 border border-blue-500/50 flex items-center justify-center hover:bg-blue-500/30 transition-colors"
                     title="LinkedIn"
@@ -90,7 +92,7 @@ export default function DirectorsDeskPage() {
                     <Linkedin className="w-5 h-5 text-blue-400" />
                   </motion.a>
                   <motion.a
-                    href="#"
+                    href="mailto:ayushbharadwaj0407@gmail.com"
                     whileHover={{ scale: 1.1 }}
                     className="w-12 h-12 rounded-lg bg-blue-500/20 border border-blue-500/50 flex items-center justify-center hover:bg-blue-500/30 transition-colors"
                     title="Email"

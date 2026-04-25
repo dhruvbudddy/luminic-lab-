@@ -8,6 +8,8 @@ const inter = Inter({
   subsets: ['latin'],
   weight: ['300', '400', '500', '600', '700', '800'],
   variable: '--font-inter',
+  display: 'swap',
+  preload: true,
 });
 
 export const metadata: Metadata = {
@@ -28,6 +30,12 @@ export const metadata: Metadata = {
     'crypto',
   ],
   authors: [{ name: 'Luminic Labs Pvt Ltd' }],
+  viewport: {
+    width: 'device-width',
+    initialScale: 1,
+    maximumScale: 5,
+    userScalable: true,
+  },
   openGraph: {
     title: 'Luminic Labs — Building the Future of Web3',
     description:

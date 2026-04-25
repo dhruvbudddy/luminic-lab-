@@ -10,9 +10,9 @@ import { motion, AnimatePresence } from 'framer-motion';
 const navLinks = [
   { href: '/', label: 'Home' },
   { href: '/about', label: 'About' },
+  { href: '/directors-desk', label: "Director's Desk" },
   { href: '/services', label: 'Services' },
   { href: '/portfolio', label: 'Portfolio' },
-  { href: '/directors-desk', label: "Director's Desk" },
 ];
 
 export default function Navbar() {
@@ -41,15 +41,13 @@ export default function Navbar() {
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16 lg:h-20">
-            <Link href="/" className="flex items-center gap-2 group">
-              <Image
-                src="/images/Shopvix.png"
-                alt="Shopvix Logo"
-                width={60}
-                height={60}
-                className="h-auto"
-                priority
-              />
+            <Link href="/" className="flex flex-col items-start gap-0 group">
+              <span className="text-lg sm:text-xl font-bold text-white">
+                Luminic Labs
+              </span>
+              <span className="text-xs text-gray-400">
+                Pvt Ltd
+              </span>
             </Link>
 
             <div className="hidden lg:flex items-center gap-8">

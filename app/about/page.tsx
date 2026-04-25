@@ -1,7 +1,7 @@
 'use client';
 
+import Image from 'next/image';
 import { motion } from 'framer-motion';
-import { ChevronDown } from 'lucide-react';
 
 export default function AboutPage() {
   return (
@@ -14,6 +14,16 @@ export default function AboutPage() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
+            <div className="mx-auto mb-8 w-36 sm:w-44">
+              <Image
+                src="/images/Shopvix.png"
+                alt="Shopvix Logo"
+                width={176}
+                height={176}
+                className="mx-auto h-auto"
+                priority
+              />
+            </div>
             <h1 className="text-3xl sm:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6">
               About <span className="gradient-text">Luminic Labs</span>
             </h1>

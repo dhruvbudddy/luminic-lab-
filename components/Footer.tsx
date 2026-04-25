@@ -30,20 +30,20 @@ export default function Footer() {
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 pb-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
-          <div className="lg:col-span-1">
-            <Link href="/" className="flex items-center gap-2 group mb-4">
+          <div className="lg:col-span-1 flex flex-col items-center">
+            <Link href="/" className="flex items-center justify-center group mb-4">
               <Image
                 src="/images/Shopvix.png"
                 alt="Shopvix Logo"
-                width={60}
-                height={60}
+                width={120}
+                height={120}
                 className="h-auto"
               />
             </Link>
-            <p className="text-gray-400 text-sm leading-relaxed mb-6">
+            <p className="text-gray-400 text-sm leading-relaxed mb-6 text-center">
               Building the decentralized future, block by block. Your trusted blockchain development partner in India.
             </p>
-            <div className="flex items-center gap-2 text-sm text-gray-400">
+            <div className="flex items-center justify-center gap-2 text-sm text-gray-400">
               <MapPin className="w-4 h-4 text-blue-400 flex-shrink-0" />
               <span>India</span>
             </div>
